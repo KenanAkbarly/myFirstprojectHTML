@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lesson2</title>
+    </head>
+
+    <body>
+<ul style="list-style-type: disc;">
+    <li>milk
+        <ol>
+            <li>2,4%</li>
+            <li>5,3%</li>
+        </ol>
+    </li>  <!--list item-->
+    <li>bread</li>
+    <li>water</li>
+</ul>
+<ol type="1" start="4">
+    <li>milk</li>  <!--list item-->
+    <li>bread</li>
+    <li>water</li>
+</ol>   
+<dl> <!--description list-->
+    <dt>tea</dt> <!--description term-->
+    <dd>is a drink</dd> 
+    <dt>coffee</dt>
+    <dd>is also a drink</dd>
+</dl>
+    </body>
+    <table border="1">
+        <caption>SABAH group</caption>
+<thead>
+    <tr>
+     <th>Name</th>
+     <th>Suraname</th>
+     <th>Age</th>
+    </tr>
+</thead>
+<tbody>
+
+<tr>
+    <td colspan="2">Kenan</td>
+    
+    <td rowspan="2">19</td>
+</tr>
+<tr>
+    <td rowspan="2">Subhan</td>
+    <td>Nagiyev</td>
+    
+</tr>
+<tr>
+    
+    <td colspan="2">Huseyn</td>
+</tr>
+</tbody>
+
+<tfoot></tfoot>
+
+</table>
+<br/>
+
+<form action="">
+<label for="name">Name:</label>
+<input type="text" placeholder="text your name" maxlength="10"  required id="name"><br/><br>
+<label for="email">E-mail:</label>
+<input type="email" placeholder="text your email" maxlength="" id="email" required><br/><br>
+<label for="password">Password:</label>
+<input type="password" placeholder="text your email" maxlength="10"  required id="password"><br/><br>
+<label for="age">Age:</label>
+<input type="number" max="10" min="6" step="4" id="age"> <br/>
+
+<label for="dress">Dress</label>
+<input type="checkbox" id="dress">
+<label for="object">Table</label>
+<input type="checkbox" id="object" checked disabled><br/><br/> <!--checked diasbled-->
+<label for="male">Male</label>
+<input type="radio" id="male" name="gender"> <!--checked diasbled-->
+<label for="fimale">Fimale</label>
+<input type="radio" id="fimale" name="gender"><br/><br/> <!--checked diasbled-->
+
+<input type="file" name="" id="" multiple>
+<button>OK</button> 
+<input type="reset"> <br/>
+<br/>
+<select size="1">
+<option value="" hidden selected>Select your language</option>
+<option value="az" >AZE</option>
+<option value="ru" disabled>RU</option>
+<option value="en" >EN</option>
+<br/><br/>
+<textarea  placeholder="" rows="4" cols="20" required disabled ></textarea>
+</select>
+<input type="image">
+</form>
+</html>
